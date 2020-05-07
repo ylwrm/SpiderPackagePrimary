@@ -1,8 +1,7 @@
 {
   "name": "spiderpackageprimary",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dist": "tsc && node dist.js"
@@ -15,7 +14,10 @@
     "ncp": "2.0.0"
   },
   "files": [
-    "dist"
+    "/dist/SpiderCombination.js",
+    "/dist/SpiderCombination.d.ts",
+    "/dist/SpiderTable.js",
+    "/dist/SpiderTable.d.ts"
   ],
   "repository": {
     "type": "git",
