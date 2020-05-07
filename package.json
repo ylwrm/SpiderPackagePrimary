@@ -1,0 +1,31 @@
+{
+  "name": "spiderpackageprimary",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "tsc && node dist.js"
+  },
+  "dependencies": {
+    "spidertypes": "latest",
+    "handsontable": "6.2.2"
+  },
+  "devDependencies": {
+    "ncp": "2.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ylwrm/SpiderPackagePrimary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ylwrm/SpiderPackagePrimary/issues"
+  },
+  "homepage": "https://github.com/ylwrm/SpiderPackagePrimary#readme"
+}
