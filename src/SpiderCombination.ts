@@ -3,4 +3,7 @@ class SpiderCombination implements Spider.Component {
 
         return this;
     };
+    destroy() {
+
+    }
 }

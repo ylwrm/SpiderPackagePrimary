@@ -1,6 +1,6 @@
 {
   "name": "spiderpackageprimary",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,13 +9,14 @@
     "dist": "tsc && node dist.js"
   },
   "dependencies": {
-    "spidertypes": "latest",
+    "spidertypes": "0.0.1",
     "handsontable": "6.2.2"
   },
   "devDependencies": {
     "ncp": "2.0.0"
   },
   "files": [
+    "/dist/index.d.ts",
     "/dist/SpiderCombination.js",
     "/dist/SpiderCombination.d.ts",
     "/dist/SpiderTable.js",

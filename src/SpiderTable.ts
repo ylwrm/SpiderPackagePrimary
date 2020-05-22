@@ -1,5 +1,6 @@
 
 class SpiderTable implements Spider.Component {
+    private table: Handsontable | undefined;
     init(div: HTMLDivElement, option?: any) {
         const data = [
             ['', 'Tesla', 'Volvo', 'Toyota', 'Ford'],
@@ -7,11 +8,16 @@ class SpiderTable implements Spider.Component {
             ['2020', 20, 11, 14, 13],
             ['2021', 30, 15, 12, 13]
         ];
-        const hot = new Handsontable(div, {
+        this.table = new Handsontable(div, {
             data: data,
             rowHeaders: true,
             colHeaders: true
         });
         return this;
     };
+    destroy() {
+        if(this.table){
+            this.table.destroy();
+        }
+    }
 }
