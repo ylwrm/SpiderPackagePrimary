@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "spidertypes": "0.0.1",
-    "handsontable": "6.2.2"
+    "handsontable": "10.0.0"
   },
   "devDependencies": {
     "ncp": "2.0.0"
